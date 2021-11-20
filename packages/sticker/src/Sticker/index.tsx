@@ -42,7 +42,7 @@ export default class Sticker extends Component<StickerProps> {
       <figure
         contentEditable={false}
         data-offset-key={`${block.get('key')}-0-0`}
-        className={theme.sticker}
+        className={theme.sticker + " dj-sticker"}
       >
         <img
           className={theme.stickerImage}
